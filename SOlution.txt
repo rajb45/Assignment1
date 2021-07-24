@@ -1,0 +1,30 @@
+$ git init Ass1
+$ notepad file1.txt
+$ notepad file2.txt
+$ notepad file3.txt
+$ git checkout -b Dev
+$ git add file1.txt
+$ git status
+$ git commit file1.txt
+$ git status
+$ git checkout -b Test
+$ git status
+$ git add file2.txt
+$ git add file3.txt
+$ git status
+$ git commit file2.txt
+$ git commit file3.txt
+$ git status
+$ git log
+$ git switch Dev
+$ notepad file1.txt
+$ git diff file1.txt
+$ git checkout -b master
+$ git merge Dev
+$ git merge Test
+$ git remote add origin "https://github.com/rajb45/Assignment1.git"
+$ git push -u origin master
+$ cd ..
+$ git clone https://github.com/rajb45/Assignment1.git ClonedAss
+$ cd ClonedAss
+$ notepad SOlution.txt
